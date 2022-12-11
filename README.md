@@ -94,20 +94,3 @@ The graph above compares various models based on their Root Mean Square Error (R
 
 If given more time for the project, we would explore a wider range of input methods, including BERT and bag-of-words, and use more complex neural networks such as LSTMs. We would also incorporate larger and more diverse datasets to improve the model's accuracy and provide a more comprehensive overview of stock movements. Additionally, we would consider incorporating data from a wider range of companies, rather than just tech companies listed on the Nasdaq, to better reflect the overall stock market. However, our findings suggest that tweets are simply not a reliable indicator of future stock performance, and so other methods such as using past stock fluctuations to train the model may be more accurate.
 
-**Team Contribution Statement (Agreed upon by all team members):**
-
-Sungjun:
-
-Worked on scraping tweet data, training the linear regression model and calculating tweet sentiments using Flair.
-
-Wrote the comparative model results analysis, abstract, future plans and analysis of graphs and charts.
-
-Shasta:
-
-Worked on scraping tweet data, extrapolating stock percent changes for each respective company, calculating tweet sentiments using Flair, and training logistic regression model.
-
-Wrote the abstract, presentation of the results, data extraction, Linear Regression, and Logistic Regression sections of this paper.
-
-Osama:
-
-Created tweet tokenizer, Word2Vec vectorizer, logistic regression model and neural network. Wrote sections of this paper discussing the Word2Vec and neural network.
