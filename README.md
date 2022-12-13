@@ -12,6 +12,8 @@ December 12, 2022
 
 This project uses Tweet sentiment analysis to predict stock return changes. In terms of data sources, we used Twitter for the sentiment analysis aspect and stock market API call to gather percentage changes for these respective companies over a given period of time. To find which method of prediction would work best, we decided to test on a couple different models: Linear Regression, Naive Bayes, Logistic Regression, as well as a Neural Network Regression Model. Based on our results, we found that Tweets were poor predictors of the stock market changes, but of the models surveyed we found the Neural Network Regression Model to work best. Also, given the different methodologies, we found that using Word2Vec to preprocess the tweets was more ideal.
 
+Rendered Python Notebook: https://nbviewer.org/github/joeypark743/TweetStockPredictionNLP/blob/main/CS505_Final_Project_Tweet_Stock_Prediction.ipynb
+
 **Presentation of the results**
 
 Putting ourselves in the shoes of an investment banking firm, we decided to find a solution to predicting which stock purchases they should make. We decided to use the sentiment analysis of tweets on various companies to predict future stock fluctuations for the following day. We have also worked with tweet data in class with our problem assignments, so we thought it made sense for us to use this method for data extraction. This problem is interesting because stock changes tend to be hard to predict, and many traders and economists try to find models to best figure out where a stock is going next. In addition, many stock prediction models are based on past changes in stock prices, but we decide to use the public viewpoint of companies to predict future stock fluctuations.
